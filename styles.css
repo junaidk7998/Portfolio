@@ -2,7 +2,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    background-color: #ecf0f1;
+    /*background-color: #ecf0f1;*/
 }
 
 li, a {
@@ -16,7 +16,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 30px 10%;
+    padding: 20px 10%;
     background-color: #ecf0f1;
 }
 
@@ -25,6 +25,12 @@ header {
     height: 130px;
     width: 130px;
     border-radius: 15px;
+    transition: width 1s, height 1s;
+}
+
+.logo:hover {
+    width: 150px;
+    height: 150px;
 }
 
 .nav-links {
@@ -57,3 +63,29 @@ button:hover {
     background-color: rgba(0, 136, 169, 0.8);
 }*/
 
+.sec-1 {
+    text-align: center;
+    padding: 40px 10px;
+}
+
+.name {
+    font-size: 4rem;
+}
+
+.intro {
+    font-size: 1.4rem;
+    line-height: 40px;
+}
+
+.sec-2 {
+    padding: 20px 20px;
+}
+
+.about {
+    font-size: 2rem;
+}
+
+.statement {
+    line-height: 25px;
+    font-size: 1.1rem;
+}
