@@ -75,6 +75,12 @@ button:hover {
 .intro {
     font-size: 1.4rem;
     line-height: 40px;
+    padding-bottom: 50px;
+}
+
+.me {
+    border-radius: 50%;
+    width: 280px;
 }
 
 .sec-2 {

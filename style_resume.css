@@ -1,0 +1,58 @@
+.flexbox-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: stretch;
+    flex-direction: column;
+}
+
+.flexbox-item {
+    width: 600px;
+    margin: 10px 50px;
+    border: 3px solid white;
+    background-color: rgb(218, 214, 214);
+}
+
+.flexbox-item-1 {
+    min-height: 50px;
+    width: auto;
+    background-color: white;
+}
+
+.flexbox-item-2 {
+    min-height: 200px;
+    width: auto;
+}
+
+.flexbox-item-3 {
+    min-height: 150px;
+    width: auto;
+}
+
+.flexbox-item-4 {
+    min-height: 300px;
+    width: auto;
+}
+
+.flexbox-item-5 {
+    min-height: 200px;
+    width: auto;
+}
+
+.flexbox-item-6 {
+    min-height: 175px;
+    width: auto;
+}
+
+.flexbox-item-7 {
+    min-height: 200px;
+    width: auto;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2, h3, p {
+    margin-left: 20px;
+}
