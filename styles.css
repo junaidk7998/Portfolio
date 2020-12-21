@@ -65,7 +65,7 @@ button:hover {
 
 .sec-1 {
     text-align: center;
-    padding: 40px 10px;
+    padding: 80px 10px;
 }
 
 .name {
@@ -78,14 +78,44 @@ button:hover {
 }
 
 .sec-2 {
-    padding: 20px 20px;
+    padding: 100px 140px;
 }
 
 .about {
     font-size: 2rem;
+    padding-bottom: 25px;
 }
 
 .statement {
     line-height: 25px;
     font-size: 1.1rem;
+}
+
+.sec-3 {
+    padding-right: 140px;
+    padding-left: 140px;
+    padding-bottom: 100px;
+}
+
+.services {
+    font-size: 2rem;
+    padding-bottom: 25px;
+}
+
+.FED {
+    font-size: 1.3rem;
+    color: #0088a9;
+    padding-bottom: 15px;
+}
+
+.contact {
+    text-align: center;
+    padding: 80px 20px;
+    border: 1px dotted #2e2f33;
+    line-height: 60px;
+}
+
+footer {
+    padding: 75px 20px;
+    text-align: center;
 }
