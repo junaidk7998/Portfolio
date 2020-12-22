@@ -50,7 +50,7 @@ header {
     color: #0088a9;
 }
 
-button {
+/*button {
     padding: 9px 25px;
     background-color: rgba(0, 136, 169, 1);
     border: none;
@@ -61,7 +61,7 @@ button {
 
 button:hover {
     background-color: rgba(0, 136, 169, 0.8);
-}
+}*/
 
 .sec-1 {
     text-align: center;
@@ -126,34 +126,57 @@ footer {
     text-align: center;
 }
 
-.proj-sec-1 {
-    padding: 50px 20px;
-    text-align: center;
+.main {
+    max-width: 1000px;
+    margin: auto;
 }
 
-.projects {
-    padding: 0 248px;
-    padding-bottom: 60px;
+h1 {
+    font-size: 50px;
+    word-break: break-all;
 }
 
-.container {
-    display: flex;
-    margin: 10px 20px;
-    flex-direction: column;
+.row {
+    margin: 8px -16px;
 }
 
-.container div {
+.row, .row > .column {
+    padding: 8px;
+}
+
+.column {
+    float: left;
+    width: 25%;
+}
+
+.row::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.content {
+    background-color: white;
+    padding: 10px;
+}
+
+body {
+    background-color: #f1f1f1;
     padding: 20px;
-    margin: 20px 233px;
 }
 
-.box-1 {
-    height: 400px;
-    color: #ecf0f1;
-    text-align: center;
-    border: 1px solid #2e2f33;
-    background-image: url("K.png");
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-    border-radius: 10px;
+.content:hover {
+    opacity: .5;
+}
+
+@media screen and (max-width: 900px) {
+    .column {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .column {
+        width: 100%;
+    }
 }
