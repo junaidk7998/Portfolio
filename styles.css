@@ -50,7 +50,7 @@ header {
     color: #0088a9;
 }
 
-/*button {
+button {
     padding: 9px 25px;
     background-color: rgba(0, 136, 169, 1);
     border: none;
@@ -61,7 +61,7 @@ header {
 
 button:hover {
     background-color: rgba(0, 136, 169, 0.8);
-}*/
+}
 
 .sec-1 {
     text-align: center;
@@ -124,4 +124,36 @@ button:hover {
 footer {
     padding: 75px 20px;
     text-align: center;
+}
+
+.proj-sec-1 {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.projects {
+    padding: 0 248px;
+    padding-bottom: 60px;
+}
+
+.container {
+    display: flex;
+    margin: 10px 20px;
+    flex-direction: column;
+}
+
+.container div {
+    padding: 20px;
+    margin: 20px 233px;
+}
+
+.box-1 {
+    height: 400px;
+    color: #ecf0f1;
+    text-align: center;
+    border: 1px solid #2e2f33;
+    background-image: url("K.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    border-radius: 10px;
 }
