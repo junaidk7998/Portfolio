@@ -2,7 +2,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    /*background-color: #ecf0f1;*/
+
 }
 
 li, a {
@@ -17,7 +17,6 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 20px 10%;
-    background-color: #ecf0f1;
 }
 
 .logo {
