@@ -2,7 +2,6 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    /*background-color: #2e2f33;*/
 }
 
 li, a {
@@ -61,54 +60,42 @@ header {
 
 .flexbox-item {
     width: 600px;
-    margin: 10px 50px;
+    margin: 20px 50px;
+    padding: 10px 0;
     border: 3px solid #ecf0f1;
     background-color: darkgray;
-    /*background-color: rgb(218, 214, 214);*/
-}
-
-.flexbox-item-1 {
-    min-height: 50px;
-    width: auto;
-
-    /*background-color: rgba(255, 255, 255, 1);*/
-    
+    border-radius: 10px;
+    line-height: 30px;
 }
 
 .flexbox-item-2 {
     min-height: 200px;
     width: auto;
-    /*background-color: rgba(255, 255, 255, 1);*/
 }
 
 .flexbox-item-3 {
     min-height: 150px;
     width: auto;
-    /*background-color: rgba(255, 255, 255, 0);*/
 }
 
 .flexbox-item-4 {
     min-height: 300px;
     width: auto;
-    /*background-color: rgba(255, 255, 255, 0);*/
 }
 
 .flexbox-item-5 {
     min-height: 200px;
     width: auto;
-    /*background-color: rgba(255, 255, 255, 0);*/
 }
 
 .flexbox-item-6 {
     min-height: 175px;
     width: auto;
-    /*background-color: rgba(255, 255, 255, 0);*/
 }
 
 .flexbox-item-7 {
     min-height: 200px;
     width: auto;
-    /*background-color: rgba(255, 255, 255, 0);*/
 }
 
 h1 {
