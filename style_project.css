@@ -81,7 +81,12 @@ h1 {
 
 .content {
     background-color: white;
-    padding: 10px;
+    padding-bottom: 20px;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    line-height: 25px;
+    border-radius: 10px;
 }
 
 body {
@@ -103,6 +108,10 @@ footer {
 
 .icon:hover {
     opacity: .5;
+}
+
+img {
+    border-radius: 10px;
 }
 
 @media screen and (max-width: 900px) {
